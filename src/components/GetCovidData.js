@@ -18,7 +18,7 @@ function GetCovidData() {
   };
 
   const fetchCovidData = () => {
-    const URL = "https://api.covid19india.org/state_district_wise.json";
+    // const URL = "https://api.covid19india.org/state_district_wise.json";
 
     convertToJson(CovidData);
     console.log(data);
@@ -47,7 +47,7 @@ function GetCovidData() {
   useEffect(() => {
     fetchCovidData();
   }, []);
-  
+
   const getState = (event) => {
     console.log(event.target.value);
     const districtData = data.filter((ele) => {

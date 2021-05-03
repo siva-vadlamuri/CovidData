@@ -1,8 +1,8 @@
 // import logo from './logo.svg';
 import "./App.css";
-import UseState from "./components/UseState";
-import SpreedOperatorUseState from "./components/SpreedOperatorUseState";
-import ArrayUseState from "./components/ArrayUseState";
+// import UseState from "./components/UseState";
+// import SpreedOperatorUseState from "./components/SpreedOperatorUseState";
+// import ArrayUseState from "./components/ArrayUseState";
 import GetCovidData from "./components/GetCovidData";
 //The useState hook let us add state to functional Component
 //In classes the state is always object
@@ -15,9 +15,9 @@ import GetCovidData from "./components/GetCovidData";
 function App() {
   return (
     <div className="App">
-      <UseState />
-      <SpreedOperatorUseState />
-      <ArrayUseState />
+      {/* <UseState /> */}
+      {/* <SpreedOperatorUseState /> */}
+      {/* <ArrayUseState /> */}
       <GetCovidData />
     </div>
   );
